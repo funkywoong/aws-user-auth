@@ -3,7 +3,6 @@
 - Create S3 folders for each IAM user
 
 ## requirements
----
 ### 1. AWS CLI
 - The latest version of AWS CLI. Please check the following link for installing it.
 - [AWS_CLI_link](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/cli-chap-install.html).
@@ -12,7 +11,6 @@
 - These scripts are made for the Linux and OSX. For using the scripts, you should run it by using shell command interface such as bash/zsh. 
 
 ## Usage
----
 ### 1. Clone this repository
 ```
 $git clone https://github.com/funkywoong/aws-user-auth.git
