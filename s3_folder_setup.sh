@@ -15,7 +15,7 @@ folder_prefix=${array[1]}
 user_prefix=${array[2]}
 user_number=${array[3]}
 
-# create 
+# create s3 folders
 for idx in $(seq ${user_number})
 do
 	target_folder="${folder_prefix}$idx"
