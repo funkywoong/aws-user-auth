@@ -13,18 +13,18 @@
 
 ## Usage
 ---
-1. Clone this repository
+### 1. Clone this repository
 ```
 $git clone https://github.com/funkywoong/aws-user-auth.git
 ```
-2. Modify ***config.txt*** following your requirements
+### 2. Modify ***config.txt*** following your requirements
  - **target_bucket** means the S3 bucket you want to use
  - **folder_prefix** means the prefix of folder created by this scripts. Postfix number increases sequentially like '20_u10-01_0', '20_u10-01_1'
  - **user_prefix** means the prefix of user created by this scripts. Postfix number increases sequentially like '_u-01_1', '_u-01_2'
  - **user_number** means how many folders or users you want to create.
  - **temporal_password** means the first password embeded in newly-created user. The password will have to be changed by users when they access their console at the first time.
 
-3. Run the scripts
+### 3. Run the scripts
  - Creating S3 folders
 ```
 $sh s3_folder_setup.sh 
