@@ -2,6 +2,8 @@
 - IAM user creation by using AWS CLI
 - Create S3 folders for each IAM user
 
+
+
 ## requirements
 ### 1. AWS CLI
 - The latest version of AWS CLI. Please check the following link for installing it.
