@@ -2,3 +2,4 @@ target_bucket=ai-dataset-tta
 folder_prefix=20_u10-01_
 user_prefix=_u-01_
 user_number=3
+temporal_password=Temporalpwd1!

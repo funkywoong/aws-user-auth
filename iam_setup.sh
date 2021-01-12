@@ -14,6 +14,7 @@ target_bucket=${array[0]}
 folder_prefix=${array[1]}
 user_prefix=${array[2]}
 user_number=${array[3]}
+temporal_password=${array[4]}
 
 # create IAM users and policies
 # these will be created as many as the number you set on config.txt
@@ -112,7 +113,7 @@ EOF
     aws iam attach-user-policy --policy-arn ${policy_arn} --user-name ${target_user} | echo q
 
     # change password
-    aws iam create-login-profile --user-name ${target_user} --password Temporalpwd1! --password-reset-required | echo q
+    aws iam create-login-profile --user-name ${target_user} --password ${temporal_password} --password-reset-required | echo q
 
     # remove temporal json file
     rm -rf ${policy_doc}
